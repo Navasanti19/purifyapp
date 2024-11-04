@@ -87,7 +87,7 @@ function App() {
                 Óxidos de nitrógeno (NO<sub>x</sub>)
               </td>
               <td>
-                0.1 - 0.3 <span className="unit">g/m²/día</span>
+                0.1 - 0.3 <span className="unit"></span>
               </td>
             </tr>
             <tr>
@@ -95,13 +95,13 @@ function App() {
                 Dióxido de Azufre (SO<sub>2</sub>)
               </td>
               <td>
-                0.05 - 0.15 <span className="unit">g/m²/día</span>
+                0.05 - 0.15 <span className="unit"></span>
               </td>
             </tr>
             <tr>
               <td>Monóxido de Carbono (CO)</td>
               <td>
-                0.05 - 0.1 <span className="unit">g/m²/día</span>
+                0.05 - 0.1 <span className="unit"></span>
               </td>
             </tr>
             <tr>
@@ -109,13 +109,13 @@ function App() {
                 Dióxido de Carbono (CO<sub>2</sub>)
               </td>
               <td>
-                0.01 - 0.05 <span className="unit">g/m²/día</span>
+                0.01 - 0.05 <span className="unit"></span>
               </td>
             </tr>
             <tr>
               <td>Compuestos Orgánicos Volátiles (COVs)</td>
               <td>
-                0.01 - 0.03 <span className="unit">g/m²/día</span>
+                0.01 - 0.03 <span className="unit"></span>
               </td>
             </tr>
           </tbody>
@@ -197,7 +197,7 @@ function App() {
       </div>
           <footer className="footer">
             <p className="footer-text">
-              Purify Road - Creado por Sofía Rodríguez
+              Purify Road - Creado por Sofía Yúnez
             </p>
           </footer>
     </div>
