@@ -1,0 +1,139 @@
+/* Estilo de la sección de Planos */
+.plano-section {
+    padding: 20px 50px;
+  }
+  
+  .header-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el logo y el texto */
+    padding: 20px;
+  }
+  
+  .logo-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .section-title {
+    font-size: 3em;
+    color: #2e7d32;
+    margin: 0;
+  }
+  .section-title-1 {
+    font-size: 3em;
+    color: #00695c;
+    margin: 0;
+  }
+  
+  .section-description {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido esté distribuido */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px; /* Define una altura fija para alinear las cards */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .card-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: auto; /* Empuja los botones hacia la parte inferior de la card */
+  }
+  
+  .card-buttons button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Asegura que ambos botones tengan el mismo ancho */
+  }
+  
+  .card-buttons button:hover {
+    background-color: #388e3c;
+  }
+  
+  .card h3 {
+    min-height: 50px; /* Asegura que el título tenga suficiente espacio para todas las cards */
+  }
+  
+  /* Modal */
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+  }
+  
+  .modal-content {
+    width: 70%;
+    border-radius: 8px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  /* Sección de "¿Por qué escogimos esta estación?" */
+  .why-section {
+    margin-top: 30px;
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .why-section h2 {
+    font-size: 1.8em;
+    color: #2e7d32;
+  }
+  
+  .why-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
