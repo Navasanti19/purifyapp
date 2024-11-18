@@ -5,6 +5,7 @@ import "./Costos.css";
 
 function Costos() {
   return (
+    <div>
     <div className="costos-container">
       {/* Título de la sección */}
       <h1 className="costos-title">Comparación de Costos</h1>
@@ -30,6 +31,10 @@ function Costos() {
         más sostenibles justifican su implementación en proyectos estratégicos.
       </p>
     </div>
+      <footer className="footer">
+        <p className="footer-text">Purify Road - Creado por Sofía Yúnez</p>
+      </footer>
+      </div>
   );
 }
 
