@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Calculadora from './components/Calculadora/Calculadora';
 import Plano from './components/Plano/Plano';
 import Home from './components/Home/Home';
+import Costos from './components/Costos/Costos';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Link to="/">Inicio</Link>
             <Link to="/calculadora">Calculadora</Link>
             <Link to="/planos">Planos</Link>
+            <Link to="/costos">Costos</Link>
           </nav>
         </header>
         
@@ -23,6 +25,7 @@ function App() {
           <Route path="/calculadora" element={<Calculadora />} />
           <Route path="/planos" element={<Plano />} />
           <Route path="/" element={<Home />} /> {/* Ruta por defecto */}
+          <Route path="/costos" element={<Costos />} />
         </Routes>
       </div>
     </Router>
