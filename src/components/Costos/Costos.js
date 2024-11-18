@@ -1,5 +1,5 @@
 import React from "react";
-import asfaltoConvencional from "../../assets/.png";
+import asfaltoConvencional from "../../assets/asfaltoConvencional.png";
 import asfaltoFotocatalitico from "../../assets/asfaltoFotocatalitico.png";
 import "./Costos.css";
 
